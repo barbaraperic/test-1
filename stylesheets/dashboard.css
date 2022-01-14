@@ -1,0 +1,30 @@
+.dashboard {
+  background-color: var(--clr-2);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 10vh;
+  color: var(--clr-3);
+  padding: 1rem;
+}
+
+.dashboard > div {
+  border: solid 2px var(--clr-3);
+  border-radius: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1.75rem 0.5rem 0.25rem 0.5rem;
+  transition: all 0.5s;
+}
+
+.dashboard > div:hover {
+  filter: invert(1);
+}
+
+.dashboard span {
+  font-family: "Varela Round", sans-serif;
+}

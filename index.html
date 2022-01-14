@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="stylesheet"
-			href="./stylesheets/style.css
-  "
-		/>
-		<title>Document</title>
-	</head>
-	<body>
-		<h1>Hello</h1>
-		<script type="module" src="./dist/main.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>to-do</h1>
+    </header>
+    <main>
+      <section class="dashboard">
+        <div class="deleteAll">
+          <i class="fa-regular fa-2xl fa-trash-can"></i>
+          <span>Delete all</span>
+        </div>
+        <div class="checkOffAll">
+          <i class="fa-solid fa-2xl fa-check-double"></i>
+          <span>Check off all</span>
+        </div>
+        <div class="resetAll">
+          <i class="fa-solid fa-2xl fa-rotate-left"></i>
+          <span>Reset all</span>
+        </div>
+        <div class="toggleDarkMode">
+          <i class="fa-solid fa-2xl fa-circle-half-stroke"></i>
+          <span>Toogle dark mode</span>
+        </div>
+      </section>
+      <section class="tasks">
+        <ul class="undone-tasks"></ul>
+        <hr class="undisplayed" />
+        <ul class="done-tasks"></ul>
+      </section>
+      <section class="task-creation">
+        <div class="task-form">
+          <input class="task-input" />
+          <button class="task-btn">
+            <i class="fa-solid fa-2x fa-plus"></i>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./dist/main.js"></script>
+  </body>
 </html>

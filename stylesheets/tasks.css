@@ -1,0 +1,46 @@
+.tasks {
+  font-size: 2rem;
+  height: 65vh;
+  padding: 2rem;
+}
+
+.tasks li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-2);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.tasks span {
+  flex-grow: 1;
+  overflow-x: auto;
+}
+
+.tasks div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  margin-left: 2rem;
+}
+
+.tasks div > * {
+  margin: 0.5rem;
+}
+
+.crossedOut {
+  text-decoration: line-through;
+}
+
+hr {
+  margin: 2.5vh 0;
+  border: 0.25rem solid var(--clr-1);
+}
+
+.undisplayed {
+  display: none;
+}

@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: var(--clr-1);
+}
+
+h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  color: var(--clr-3);
+}

@@ -1,0 +1,54 @@
+.task-creation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 15vh;
+  width: 100vw;
+  font-size: 2rem;
+  background-color: var(--clr-1);
+  position: fixed;
+  bottom: 0;
+}
+
+.task-form {
+  background-color: var(--clr-2);
+  width: 90%;
+  height: 60%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.task-input {
+  flex-grow: 1;
+  background-color: transparent;
+  border-style: none;
+}
+
+.task-input:focus {
+  outline: none;
+}
+
+.task-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  border: solid 0.25rem var(--clr-5);
+  background-color: var(--clr-4);
+  margin-left: 2rem;
+}
+
+.task-btn:active {
+  outline: none;
+}
+
+.fa-plus {
+  color: var(--clr-5);
+}
